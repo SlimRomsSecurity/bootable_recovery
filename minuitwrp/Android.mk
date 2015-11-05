@@ -86,7 +86,7 @@ ifneq ($(TW_WHITELIST_INPUT),)
   LOCAL_CFLAGS += -DWHITELIST_INPUT=$(TW_WHITELIST_INPUT)
 endif
 
-LOCAL_SHARED_LIBRARIES += libz libc libcutils libjpeg
+LOCAL_SHARED_LIBRARIES += libz libc libcutils libjpeg libutils
 LOCAL_STATIC_LIBRARIES += libpng libpixelflinger_static
 LOCAL_MODULE_TAGS := eng
 LOCAL_MODULE := libminuitwrp
